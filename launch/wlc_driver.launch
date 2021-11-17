@@ -1,0 +1,5 @@
+<launch>
+    <node name="wlc_driver" pkg="andilog_torque_sensor" type="wlc_driver.py" output="screen">
+        <param name="mac_address" value="80:1F:12:BA:32:DA"/>
+    </node>
+</launch>
